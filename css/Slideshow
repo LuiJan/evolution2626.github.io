@@ -1,0 +1,19 @@
+<div id="slideshow">
+	<ul id="sContent"><!--
+		--><li><img src="2828.png" alt="premiere image" /></li><!--
+		--><li><img src="Logo_2626.png" alt="seconde image" /></li><!--
+		--><li><img src="Logo_de_kalitay.png" alt="troisieme image" /></li>
+	</ul>
+</div>
+
+@keyframes AutoSlide {
+	0%, 15%, 100% {
+		left: 0px; /*2828.png*/
+	}
+	35%, 50% {
+		left: -150px; /*Logo_2626.png*/
+	}
+	70%, 85% {
+		left: -300px; /*Logo_de_kalitay.png*/
+	}
+}
