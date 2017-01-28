@@ -17,3 +17,28 @@
 		left: -300px; /*Logo_de_kalitay.png*/
 	}
 }
+
+#slideshow {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	margin:  20px auto;
+	overflow: hidden;
+}
+#sContent li {
+	display: inline;
+}
+
+#sContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 450px;
+	margin: 0;            
+	padding: 0;
+	
+	/*CSS3 keyframes animation*/
+	animation-name: AutoSlide;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
